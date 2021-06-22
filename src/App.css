@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.tracks {
+  display: grid;
+	grid-template-columns: repeat(5, 1fr);
+  /* text-align: center; */
+  /* padding: 20px; */
+  /* margin-bottom: 50px; */
+	/* grid-template-columns: repeat(5, 1fr); */
+  /* color:aliceblue; */
+}
+
+.lyricsCount {
+  display: grid;
+	grid-template-columns: repeat(5, 2fr);
+  /* text-align: center; */
+  /* padding: 20px; */
+  /* margin-bottom: 50px; */
+	/* grid-template-columns: repeat(5, 1fr); */
+  /* color:aliceblue; */
+}
